@@ -18,4 +18,3 @@ class StocksItem(scrapy.Item):
     low = scrapy.Field()
     increase = scrapy.Field()
     last_price = scrapy.Field()
-    pass

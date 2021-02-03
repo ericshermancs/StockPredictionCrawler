@@ -20,6 +20,10 @@ pip install scrapy
 ```bash
 cd StockPredictionCrawler/
 scrapy crawl stocks
+# Or to output to CSV:
+scrapy crawl stocks -o <filename>.csv -t csv
+# Or to output to JSONLines:
+scrapy crawl stocks -o <filename>.jl
 ```
 
 ## Contributing
